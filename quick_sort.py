@@ -24,7 +24,7 @@ def QuickSort(values,start,end):
     if i>0:
         
         QuickSort(values,0,i)
-    if end>0:
+    if i+1<end:
         
         QuickSort(values,i+1,end)
 
